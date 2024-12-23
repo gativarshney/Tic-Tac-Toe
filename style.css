@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+body{
+    margin: 0.5vmin;
+    background-color: #487A7A;
+    text-align: center;
+}
+h1{
+    font-size: 10vmin;
+    text-shadow: 2px 2px  2px beige;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2vmin;
+}
+.container .box{
+    background-color: white;
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.4);
+    font-size: 10vmin;
+    cursor: pointer;
+    background-color: #fdfebe;
+    
+}
+.container .box:hover{
+    background-color: rgba(253, 254, 190, 0.265);
+}
+#resetButton{
+    font-size: 3vmin;
+    padding: 0.5rem;
+    border: 2px solid white;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    background-color: #191913;
+    color: white;
+}
+#resetButton:hover{
+    background-color: #343429;
+}
+.msgContainer{
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+#msg{
+    font-size: 7vmin;
+    color: yellow;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px black;
+}
+#winGif{
+    height: 20vmin;
+}
+#newButton{
+    font-size: 4vmin;
+    padding: 0.5rem;
+    border: 2px solid yellow;
+    color: black;
+    border-radius: 1rem;
+    background-color: yellow;
+}
+#newButton:hover{
+    background-color: yellowgreen;
+}
+.hide{
+    display: none;
+}
+#bgMusic{
+    padding: 1vmin;
+    font-size: 1rem;
+    border: 2px solid white;
+    color: white;
+    background-color: #191913;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+#bgMusic:hover{
+    background-color: #343429;
+}

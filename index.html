@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe Game</title>
+    <link rel="shortcut icon" href="assets/tic-tac-toe.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Tic Tac Toe Game</h1>
+        <button id="bgMusic">Tap to Play Music</button>
+        <div class="msgContainer hide ">
+            <p id="msg"></p>
+            <img id="winGif" src="assets/excited.gif" alt="winner">
+            <button id="newButton">New Game</button>
+        </div>
+
+        <div class="container">
+            <div class="game">
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+            </div>
+        </div>
+        <button id="resetButton">Reset Button</button>
+    </main>
+    <audio id="tingSound" src="assets/ting.mp3"></audio>
+    <audio id="gameover" src="assets/gameover.mp3"></audio>
+    <audio id="musicSound" src="assets/music.mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
